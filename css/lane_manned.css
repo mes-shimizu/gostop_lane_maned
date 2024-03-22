@@ -83,7 +83,7 @@
 	background-color:#21d925;
 }
 /*フリック時の挙動：hover,activeで擬似表示*/
-.signal:hover,
+/* .signal:hover,
 .signal:active{
 	background-color: #21d925;
 	border: solid 5px #e7ffe8;
@@ -94,7 +94,7 @@
 }
 .signal:hover > img.flicker,
 .signal:active > img.flicker{/*フリック時の○マーク*/
-	display: block;
+/*	display: block;
 }
 .signal:hover > .ok_lane,
 .signal:active > .ok_lane{
@@ -104,7 +104,7 @@
 .signal:active > .attention{
 	color: #21d925;
 	background-color:#e7ffe8;
-}
+} */
 /*ここまでフリック時の挙動*/
 .blank{
 	clear: both;
@@ -330,7 +330,7 @@
 		margin: 5px 0 0;
 	}
 	/*フリック時の挙動：hover,activeで擬似表示*/
-	.signal:hover,
+/* 	.signal:hover,
 	.signal:active{
 		background-color: #21d925;
 		border: solid 5px #e7ffe8;
@@ -341,7 +341,7 @@
 	}
 	.signal:hover > img.flicker,
 	.signal:active > img.flicker{/*フリック時の○マーク*/
-		display: block;
+/*		display: block;
 	}
 	.signal:hover > .ok_lane,
 	.signal:active > .ok_lane{
@@ -351,7 +351,7 @@
 	.signal:active > .attention{
 		color: #21d925;
 		background-color:#e7ffe8;
-	}
+	} */
 	/*ここまでフリック時の挙動*/
 	.blank{
 		clear: both;
@@ -585,7 +585,7 @@
 		position: static;
 	}
 	/*フリック時の挙動：hover,activeで擬似表示*/
-	.signal:hover,
+/* 	.signal:hover,
 	.signal:active{
 		background-color: #21d925;
 		border: solid 5px #e7ffe8;
@@ -596,7 +596,7 @@
 	}
 	.signal:hover > img.flicker,
 	.signal:active > img.flicker{/*フリック時の○マーク*/
-		display: block;
+/*		display: block;
 	}
 	.signal:hover > .ok_lane,
 	.signal:active > .ok_lane{
@@ -606,7 +606,7 @@
 	.signal:active > .attention{
 		color: #21d925;
 		background-color:#e7ffe8;
-	}
+	} */
 	/*ここまでフリック時の挙動*/
 	.blank{
 		clear: both;
