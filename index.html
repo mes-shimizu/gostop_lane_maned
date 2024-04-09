@@ -12,6 +12,18 @@
 	if ((navigator.userAgent.indexOf('iPhone') > 0) || navigator.userAgent.indexOf('iPod') > 0 || navigator.userAgent.indexOf('Android') > 0) {
 			document.write('<meta name="viewport" content="width=device-width, maximum-scale=1, user-scalable=no">');
 	}
+
+	const audio = new Audio('sound01.mp3');
+	function playAudio(duration) {
+	  audio.currentTime = 0;
+	  audio.play();
+	  setTimeout(() => {
+	    audio.pause();
+	    if (duration > 0) {
+	      playAudio(duration - audio.duration);
+	    }
+	  }, audio.duration * 1000);
+	}
 </script>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
@@ -53,7 +65,7 @@
 				</button>
 			</div>
 			<div class="volume">
-				<button class="white">
+				<button class="white" onclick="playAudio(7)">
 					<span>音量<br>確認</span>
 				</button>
 			</div>
